@@ -19,7 +19,7 @@ hamburger.classList.toggle("toggle");
 // Change nav bar colour upon scrolling
 function runOnScroll() {
 	var scrollPos = window.scrollY;
-    if (scrollPos >= 700 && window.innerWidth>900) {
+    if (scrollPos >= 700 && window.innerWidth>1000) {
 	     var colorVal = document.getElementById("nav-bar");
 	     colorVal.style.background = "rgba(0,0,0, 0.4)";
       }
