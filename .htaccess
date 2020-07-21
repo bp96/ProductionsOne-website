@@ -1,2 +1,9 @@
-RewriteEngine on
-RewriteRule ^pages/ourpeople.php /$ /our-people/ [L]
+RewriteEngine On
+RewriteBase /productionsone-website-bp96.herokuapp.com/
+
+# external redirect from actual URL to pretty one
+RewriteCond %{THE_REQUEST} /pages/film\.php[?\s] [NC]
+RewriteRule ^ home [R=302,L,NE]
+
+# internal forward from pretty URL to actual one
+RewriteRule ^film/?$ film.php [L,NC]
