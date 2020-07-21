@@ -1,0 +1,220 @@
+.top-frame{
+	background-color: transparent;
+	height: 95vh;
+}
+
+/*Hero section*/
+#hero-footage{
+	position: absolute;
+	object-fit: cover;
+	right: 0;
+	top:0;
+	height: 95%;
+	width: 100%;
+	z-index: -1;
+}
+
+.top-frame h1 {
+	font-size: 5em;
+	padding-top: 15%;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 3px rgba(0,0,0,1);
+}
+
+
+/*Introduction*/
+.intro{
+	display:flex;
+	align-items: center;
+}
+
+.intro p{
+	text-align: left;
+	color: #141414;
+	padding: 3% 2% 0% 5%;
+	font-size: 1.3em;
+}
+
+.intro img{
+	object-fit: scale-down;
+	padding: 5% 5% 5% 0%;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#intro-btn-div{
+	text-align: center; 
+	padding-top: 3rem;
+}
+
+#intro-btn{
+	background-color: transparent;
+	border: 3px black solid;
+	color:black;
+}
+
+#intro-btn:hover{
+	color: #fff;
+	background-color: black;
+}
+
+.quote{
+	padding: 7em 2em 7em 2em;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: rgb(240, 240, 240);
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+
+h3{
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	color: #b59b4a;
+	line-height: 1.2;
+	letter-spacing: 5px;
+	padding: 5% 10% 0% 10%;
+	text-align: center;
+}
+
+
+/*Button properties in centre of images*/
+.btn{
+	text-transform: uppercase;
+	background-color: transparent;
+  color: #fff;
+  font-size: .75em;
+  letter-spacing: 5px;
+  padding: 20px 70px 20px 70px;
+  border: 3px solid #191919;
+  border-color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all .3s;
+}
+
+.img-container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+
+/*Production 1*/
+.production-1{
+	display: flex;
+	align-items: center;
+	background-color: #191919;
+}
+
+.production-1 img, .production-2 img{
+	max-width: 1920px;
+}
+.production-1 p{
+	color: #fff;
+}
+
+.production-1 img{
+	object-fit: cover;
+	height: auto;
+	width: 100%;
+}
+
+/*Production 2*/
+.production-2 p, .production-1 p{
+	line-height: 1.5;
+	padding: 2% 10% 5% 10%;
+	font-size: 1.1rem;
+}
+
+.production-2{
+	display: flex;
+	align-items: center;
+	margin-bottom: -5px;
+}
+
+.production-2 p{
+	color: #141414;
+}
+
+.production-2 img{
+	object-fit: cover;
+	height: auto;
+	width: 100%;
+}
+
+.campaign-section img{
+	height: 700px;
+	width:;
+}
+.campaign-section .btn {
+ 	top: 30%;
+ }
+
+
+/* MEDIA QUERIES FOR SMALLER SCREENS */
+@media only screen and (max-width: 1000px){
+#hero-footage{
+	object-fit: cover;
+	top: 0;
+	height: 100%
+	}
+.top-frame{
+	margin-bottom: 100px;
+	}
+.top-frame h1{
+	padding-top: 40%;
+	font-size: 10vw;
+	}
+
+ .intro{
+ 	display: flex;
+ 	flex-direction: column;
+ 	}
+
+ .intro p{
+ 	margin: 0 auto;
+ 	padding: 3em 0em 1em 0em;
+ 	width: 80%;
+ 	}
+
+ .intro img{
+ 	object-fit: cover;
+ 	margin: 0 auto;
+ 	padding: 4em 0em;
+ 	width: 90%;
+ 	}
+
+ .production-2{
+ 	display: flex;
+ 	flex-direction: column;
+ 	}
+
+ .production-1{
+ 	display: flex;
+ 	flex-direction: column-reverse;
+ 	}
+
+ .production-2 img, .production-1 img{
+ 	width: 100%;
+ 	}
+
+}
