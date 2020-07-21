@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^pages/ourpeople.php /$ /our-people/ [L]
