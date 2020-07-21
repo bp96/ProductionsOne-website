@@ -79,7 +79,8 @@ padding-bottom: 20px;
 }
 
 #contact-message{
-  height: 20vh;
+  height: 10vh;
+  width: 100vw;
 }
 
 /* Add some hover effects to buttons */

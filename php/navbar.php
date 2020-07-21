@@ -31,8 +31,10 @@
 	    <input type="text" placeholder="Enter Name" name="name" required>
 	    <label for="email"><b>Email</b></label>
 	    <input type="text" placeholder="Enter Email" name="email" required>
-	    <label for="text"><b>Message</b></label>
-	    <input type="text" id="contact-message" placeholder="Enter your message here" name="message" required>
+	    <div>
+	    	<label for="textarea"><b>Message</b></label>
+		</div>
+	    <textarea id="contact-message" placeholder="Enter your message here" name="message" required></textarea>
 	    <button type="submit" class="btn">Submit</button>
 	  </form>
 	</div>
