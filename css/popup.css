@@ -7,6 +7,7 @@
   height: 100%; /* Full height */
   overflow: hidden; /* Disable scroll */
   background-color: transparent;
+  padding-top: 200px;
 }
 
 /* Modal Content/Box */
