@@ -8,11 +8,11 @@
 		  <div class="line3"></div>
 	 </div>
 	 <ul class="nav-links">
-	  <li><a href="https://productionsone-website-bp96.herokuapp.com/">Home</a></li>
-	  <li><a href="https://productionsone-website-bp96.herokuapp.com/pages/film.php">Film</a></li>
-	  <li><a href="https://productionsone-website-bp96.herokuapp.com/pages/photo.php">Photo</a></li>
-	  <li><a href="https://productionsone-website-bp96.herokuapp.com/pages/locations.php">Locations</a></li>
-	  <li><a href="https://productionsone-website-bp96.herokuapp.com/pages/ourpeople.php">Our People</a></li>
+	  <li><a href="https://productionsone-bp96.herokuapp.com/">Home</a></li>
+	  <li><a href="https://productionsone-bp96.herokuapp.com/pages/film.php">Film</a></li>
+	  <li><a href="https://productionsone-bp96.herokuapp.com/pages/photo.php">Photo</a></li>
+	  <li><a href="https://productionsone-bp96.herokuapp.com/pages/locations.php">Locations</a></li>
+	  <li><a href="https://productionsone-bp96.herokuapp.com/pages/ourpeople.php">Our People</a></li>
 	  <li><button id="open-form" class="contact-button" href="#">Contact Us</button></li>
 	 </ul>
 	</nav>
